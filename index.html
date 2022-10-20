@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MEET US AT HIGH POINT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME DECOR INDUSTRY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                    <li class="line-verticals"></li>
+
+                </ul>
+                <span class="navbar-text">
+                    <button class="login_btn">
+                        <img src="./images/logo-img.png" /> SIGN IN
+                    </button>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Section 1 -->
+
+    <section class="section_banner_bg">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12">
+                    <div class="banner_text_container">
+                        <h5>Make the most of your Time at</h5>
+                        <h4>THE HIGHT POINT MARKET</h4>
+                        <p>Take a break and discover today's most cutting edge software solution taking the Furniture /
+                            Home Décor Industry by storm... Learn how it can revolutionize your business.</p>
+                        <p class="schedule_text">Schedule a meeting and receive <span>$5,000 OFF *</span></p>
+                        <button>SCHEDULE YOUR MEETING</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 2 -->
+
+    <section class="app_section">
+        <div class="container">
+            <div class="upper_card_main">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-2">
+                        <img src="./images/fruniture.png" />
+                        <p>Designed for the Furniture / Home Décor Industry</p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="./images/business.png" />
+                        <p>Customized to fit your business</p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="./images/inventory-ship.png" />
+                        <p>Sell incoming inventory still "on the water"</p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="./images/life-back.png" />
+                        <p>Automate your day-to-day and take your life back</p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="./images/specific-needs.png" />
+                        <p>Fully scalable to meet your specific needs</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="video_container">
+                        <video controls>
+                            <source src="./images/sample-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="app_cards_container">
+                        <h3>An App for <span>every need</span></h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="app_card">
+                                    <img src="./images/file.png" />
+                                    <p>Purchase</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="app_card">
+                                    <img src="./images/ecommerce.png" />
+                                    <p>Ecommerce</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="app_card">
+                                    <img src="./images/inventory.png" />
+                                    <p>Inventory</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="app_card">
+                                    <img src="./images/help_desk.png" />
+                                    <p>Help Desk</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="app_card">
+                                    <img src="./images/accounting.png" />
+                                    <p>Accounting</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="app_card">
+                                    <img src="./images/sales.png" />
+                                    <p>Sales</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Section 3 -->
+
+    <section class="oddo_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 p-0">
+                    <div class="oddo_container_img">
+                        <img src="./images/odo_bg_image.png" />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="oddo_text_container">
+                        <img src="./images/odo_logo.png" />
+                        <h4>Amazing employees deserve
+                            amazing software</h4>
+                        <p>The only platform you will ever need to help run your business:
+                            integrated apps, kept simple, and loved by millions of happy users.</p>
+                        <div class="oddo_btn_container">
+                            <button class="start_now">START NOW, ITS FREE</button>
+                            <button class="meet_an_expert">MEET AN EXPERT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 4 -->
+
+    <section class="purchase_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="purchase_img_container">
+                        <img src="./images/purchage_container_img.png" />
+
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="oddo_text_container">
+                        <div class="purchase_box">
+                            <div>
+                                <img src="./images/file.png" />
+                            </div>
+                            <div class="purchase_box_text">
+                                <h4>Purchase</h4>
+                                <p>Improve your supply chain and inventory performance</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/tracking.png" />
+                            </div>
+                            <div>
+                                <p>Easily manage purchase orders and incoming container shipments by
+                                    cbm volume</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/checklist.png" />
+                            </div>
+                            <div>
+                                <p>Shipment lead times automatically show on your e-commerce site for full
+                                    inventory visibility</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/delivery.png" />
+                            </div>
+                            <div>
+                                <p>Adjusted shipment lead times are automatically updated on all customer
+                                    orders</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 5 -->
+
+    <section class="ecommerce_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="ecommerce_text_container">
+                        <div class="purchase_box">
+                            <div>
+                                <img src="./images/ecommerce.png" />
+                            </div>
+                            <div class="purchase_box_text">
+                                <h4>Your Modern <span>eCommerce</span></h4>
+                                <p>Easy website builder, mobile-friendly with all the features
+                                    you need </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/pc.png" />
+                            </div>
+                            <div>
+                                <p>Create modern professional-looking web pages in minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/dollar.png" />
+                            </div>
+                            <div>
+                                <p>Define your pricing visibility per customer type</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/login.png" />
+                            </div>
+                            <div>
+                                <p>Customers can easily create accounts, log in and review past orders,
+                                    invoices, and more</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="checque_rounded">
+                                <img src="./images/cheque.png" />
+                            </div>
+                            <div>
+                                <p>Customers can pay at checkout, log in and pay invoices online, conveniently
+                                    make payments by payment links, store multiple credit cards</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/gift.png" />
+                            </div>
+                            <div>
+                                <p>Ready to use out of the box with seamless integration with your Sales and
+                                    Inventory apps </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="checque_rounded">
+                                <img src="./images/stopwatch.png" />
+                            </div>
+                            <div>
+                                <p>Automatically updated product availability / lead times on the product
+                                    pages connected directly from the next available inventory</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/pay.png" />
+                            </div>
+                            <div>
+                                <p>At checkout, choose to charge the full order amount or any payment
+                                    amount desired</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="ecommerce_site_view_img_container">
+                        <img src="./images/ecommerce-site-view.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 6 -->
+
+    <section class="inventory_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="inventory_logo_container">
+                        <div class="purchase_box">
+                            <div>
+                                <img src="./images/inventory.png" />
+                            </div>
+                            <div class="purchase_box_text">
+                                <h4>Inventory</h4>
+                                <p>Maximize your warehouse efficiency and decrease
+                                    operational costs </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="inventory_details_container">
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/moneypng.png" />
+                            </div>
+                            <div>
+                                <p>Manage incoming, internal and outgoing transfers </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/ware-house.png" />
+                            </div>
+                            <div>
+                                <p>Easily configure multi-warehouses, drop-shipping and multiple shipping methods
+                                    integrations </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/product_management.png" />
+                            </div>
+                            <div>
+                                <p>Manage products, attributes, lots, stock, incoming shipments and more</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/automation.png" />
+                            </div>
+                            <div>
+                                <p>Leverage automatic reservation of in-stock and incoming products towards sales </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/schedule2.png" />
+                            </div>
+                            <div>
+                                <p>Intelligent reporting showing when and what to order with product run out date </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="inventory_bg_image text-center">
+                        <img src="./images/inventory_container_img.png" />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Section 7 -->
+
+    <section class="sales_section left_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="sales_img_container">
+                        <img src="./images/sales_container_img.png" />
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="sales_text_container">
+                        <div class="purchase_box">
+                            <div>
+                                <img src="./images/sales.png" />
+                            </div>
+                            <div class="purchase_box_text">
+                                <h4>Sales</h4>
+                                <p>Manage your sales process from Quotation to Final Payment</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/training.png" />
+                            </div>
+                            <div>
+                                <p>Conveniently manage online and offline sales in one place </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/speaker.png" />
+                            </div>
+                            <div>
+                                <p>Easily configure your pricing strategy, promotions and discounts to
+                                    maximize revenue </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/conversation.png" />
+                            </div>
+                            <div>
+                                <p>Communicate with the customer via email directly on the order pages </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="checque_rounded">
+                                <img src="./images/credit_card.png" />
+                            </div>
+                            <div>
+                                <p>Let your customers view updated product availability, store credit card
+                                    information and pay directly online from their account </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 8 -->
+
+
+    <section class="help_desk_section right_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="ecommerce_text_container">
+                        <div class="purchase_box">
+                            <div>
+                                <img src="./images/help_desk.png" />
+                            </div>
+                            <div class="purchase_box_text">
+                                <h4>Helpdesk</h4>
+                                <p>Capitalize on improved customer service </p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/client.png" />
+                            </div>
+                            <div>
+                                <p>Track, prioritize and solve customer tickets with ease</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/ticket.png" />
+                            </div>
+                            <div>
+                                <p>Generate tickets from website forms or customer emails</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="help_rounded">
+                                <img src="./images/email.png" />
+                            </div>
+                            <div>
+                                <p>Add to your Helpdesk the full capabilities of an emailing software and have
+                                    full visibility of all conversations</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="help_rounded">
+                                <img src="./images/team.png" />
+                            </div>
+                            <div>
+                                <p>Easily keep track of linked tickets, documents the ticket is about and all the
+                                    tickets for the specific customer</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/sla.png" />
+                            </div>
+                            <div>
+                                <p>Generate reporting based on configurable SLA rules</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+
+                    <div class="help_desk_img_container">
+                        <img src="./images/help_desk_container_img.png" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Section 9 -->
+
+
+    <section class="accounting_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="accounting_container_img">
+                        <img src="./images/accounting_container_img.png" />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="accounting_text_container">
+                        <div class="purchase_box">
+                            <div>
+                                <img src="./images/accounting.png" />
+                            </div>
+                            <div class="purchase_box_text">
+                                <h4>Accounting</h4>
+                                <p>Your accounting done right: does more and in less time</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/invoice.png" />
+                            </div>
+                            <div>
+                                <p>Manage vendor bills, customer invoices, and credits, easily track payments</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/app-dev.png" />
+                            </div>
+                            <div>
+                                <p>Seamlessly integrated with the other apps so you can stop recording
+                                    transactions manually</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box">
+                                <img src="./images/banking.png" />
+                            </div>
+                            <div>
+                                <p>Synchronize with your bank account to get your statements automatically imported</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/time-saver.png" />
+                            </div>
+                            <div>
+                                <p>Save time and automate up to 95% of bank reconciliation with the smart
+                                    reconciliation feature</p>
+                            </div>
+                        </div>
+
+                        <div class="oddo_purchase_list_container">
+                            <div class="rounded_box" id="check_round">
+                                <img src="./images/reciept.png" />
+                            </div>
+                            <div>
+                                <p> Create and send invoices to get paid online</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 09  -->
+
+    <section class="transportation_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="tranportation_card">
+                        <img src="./images/market_stories.png" />
+                        <h5>HIGH POINT MARKET STORIES</h5>
+                        <p>Find out why so many attendees never miss
+                            a Market.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="tranportation_card">
+                        <img src="./images/transportation.png" />
+                        <h5>TRANSPORTATION</h5>
+                        <p>Getting around Market is effortless with free
+                            shuttles and helpful guides.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="tranportation_card">
+                        <img src="./images/neightborhood.png" />
+                        <h5>NEIGHBORHOODS</h5>
+                        <p>Market is organized into Neighborhoods to help
+                            you plan each day.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 10 -->
+
+    <section class="registration_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <div class="registration_text_container">
+                        <img src="./images/hp_logo.png" />
+                        <h4>Registration is Now Open!</h4>
+                        <p>Secure your spot for F/22 Market today.</p>
+                        <button>REGISTER NOW</button>
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="registration_img_container">
+                        <img src="./images/registration_container_img.png" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pl-5">
+                    <img src="./images/logo.png" class="footer_logo" />
+                    <p>Take a break and discover today's most cutting edge software solution taking the Furniture / Home
+                        Décor Industry by storm... Learn how it can revolutionize your business.</p>
+
+
+                </div>
+                <div class="col-md-2">
+                    <h6>Useful Links</h6>
+
+                    <ul>
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>About Us</li>
+                        </a>
+                        <a href="#">
+                            <li>Meet us at High Point</li>
+                        </a>
+                        <a href="#">
+                            <li>Home Decor Industry</li>
+                        </a>
+                        <a href="#marketing">
+                            <li>Contact Us</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Help</h6>
+
+                    <ul>
+                        <a href="#">
+                            <li>Login</li>
+                        </a>
+                        <a href="#">
+                            <li>My Account</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h6>Information</h6>
+
+                    <div class="contact">
+                        <i class="fa-solid fa-envelope footer_circle_icons"></i>
+                        <p>office@simtecitglobal.com</p>
+                    </div>
+
+                    <div class="contact">
+                        <i class="fa-solid fa-location-dot footer_circle_icons"></i>
+                        <p>6610 Bay Circle Suite F Norcross GA
+                            30071 United States</p>
+                    </div>
+
+
+
+                    <h6 class="connect">Connect with us</h6>
+                    <div class="social_Icons">
+                        <i class="fa-brands fa-facebook-f footer_circle_icons"></i>
+                        <i class="fa-brands fa-twitter footer_circle_icons"></i>
+                        <i class="fa-brands fa-linkedin-in footer_circle_icons"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copy_rights">
+        Copyright © 2022 Simtec IT Global
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ---------------- links ------------------  -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+
+
+    <script>
+        document.onkeydown = function (e) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
